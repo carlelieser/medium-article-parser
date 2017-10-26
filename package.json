@@ -1,6 +1,6 @@
 {
   "name": "medium-article-parser",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Return Medium article content as JSON",
   "main": "index.js",
   "scripts": {
