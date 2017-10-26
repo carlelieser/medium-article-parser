@@ -4,12 +4,16 @@
   "description": "Return Medium article content as JSON",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "author": "Carlos E. Santos <carloseliesersantos@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0"
   }
 }
