@@ -1,5 +1,6 @@
-Medium Parser
+Medium Parser 
 =============
+[![npm version](https://badge.fury.io/js/medium-article-parser.svg)](https://badge.fury.io/js/medium-article-parser)[![Build Status](https://travis-ci.org/carlelieser/medium-article-parser.svg?branch=master)](https://travis-ci.org/carlelieser/medium-article-parser)
 
 A small library that extracts Medium article content
 
